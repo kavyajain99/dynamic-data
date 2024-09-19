@@ -1,0 +1,2 @@
+#ignore packages installed with mpm 
+node_modules 

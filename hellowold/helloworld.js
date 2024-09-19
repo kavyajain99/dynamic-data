@@ -19,13 +19,20 @@ const server = http.createServer( (request,response) => {
    console.log(request) 
    response.writeHead(200 , { "Content-Type" : "text/plain" })
    response.end("Hello World") //server will always respond this way 
+
+   console.log(request.url) // allows us to change the stuff after the slash
+   console.log(request.method) // has get (read), post( write), put (update), delete 
+
+   if (request.url == "/about"){
+    console.log("fsdjfsdfdjsl")
+   }
 })
 
 //now here, we make it run 
 server.listen(port, () => console.log("server started on port " + port + " press ctrl + c to stop" ))
 
 
-//http://localhost:3000/
+//view at http://localhost:3000/
 
 /* // another version 
 // server.listen(PORT, () => console.log(`server started on port ${PORT}; `+`` press Ctrl C to terminate ....') */

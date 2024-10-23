@@ -4,6 +4,9 @@ const express = require('express')
 //name of app, then type is express
 const app = express()
 
+//Specify static routes
+app.use(express.static('public'))
+
 const expressHandlebars = require('express-handlebars')
 
 app.engine('handlebars', expressHandlebars.engine ({
@@ -14,36 +17,71 @@ app.set('view engine', 'handlebars')
 
 const PORT = process.env.port || 3000
 
+//import app wide data
+const gallery = require ("./data/gallery.json")
+
 /******* PROCESS ROUTES *******/ 
 
 app.get('/', (request, response) => {
-    response.render('Home')
+    //console.log(gallery)
+
+    const homeData = require("./data/home-data.json")
+    response.render('landing',{
+        gallery,
+        homeData
+    })
+    // response.render('landing', {
+    //     gallery, 
+    //     title:"this is miami ", 
+    //     abstract: "Miami is a loud place to live.",
+    //     image: "tree.jpg"
+    //     })
     })
 
-app.get('/about', (request, response) => {
-    response.render('about')
-    })  
+app.get('/fruits', (request, response) => {
+    const fruitsData = require("./data/fruits-data.json")
+    response.render('landing', {
+        gallery,
+        fruitsData
+    }) 
+})   
      
-app.get('/baklava', (request, response) => {
-    response.type('text/plain')
-    response.send('BAKLAVA shops');
-    })    
-
-app.get('/mango-trees', (request, response) => {
-    response.type('text/plain')
-    response.send('Mango trees');
+app.get('/groceries', (request, response) => {
+    const groceriesData = require("./data/groceries-data.json")
+    response.render('landing', {
+        gallery,
+        groceriesData
+    }) 
+})      
+app.get('/parks', (request, response) => {
+    const parksData = require("./data/parks-data.json")
+    response.render('landing', {
+        gallery,
+        parksData
     })  
+})          
+app.get('/unusual', (request, response) => {
+    const fruitsData = require("./data/unusual-data.json")
+    response.render('landing', {
+        gallery,
+        unusualData
+    })      
+})  
+// app.get('/mango-trees', (request, response) => {
+//     response.type('text/plain')
+//     response.send('Mango trees');
+//     })  
 
 // -----> THIS TRIGGERS A SERVER ERROR 
-app.get('/cats', (req, res) => {
-    response.type('text/plain')
-    response.send('Stray cats');
-    })     
+// app.get('/cats', (hello, world) => {
+//     response.type('text/plain')
+//     response.send('Stray cats');
+//     })     
 
-app.get('/history', (request, response) => {
-    response.type('text/plain')
-    response.send('history of miami');
-    }) 
+// app.get('/history', (request, response) => {
+//     response.type('text/plain')
+//     response.send('history of miami');
+//     }) 
 
  
 
@@ -67,6 +105,5 @@ app.listen(PORT,()=>{
     console.log(`express is running on port http://localhost:$ {PORT} `)
     console.log('Press controll c to terminate')
 })
-
 
 

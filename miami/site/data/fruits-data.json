@@ -1,0 +1,79 @@
+{
+    "title": "Fruits of Miami",
+    "abstract": "Miami is home to a diverse range of tropical fruits that thrive in its warm climate. These fruits are not only delicious but also play a significant role in the local culture and economy.",
+    "image": "/images/fruits/general.jpg",
+    "services": [  
+          
+          { "title": "Robert is Here" },
+          { "intro": "A beloved fruit stand in Homestead known for its fresh tropical fruits and smoothies." },
+          {
+              "list": ["Mangoes", "Local produce", "Smoothies"],
+              "image": "/images/fruits/robert.jpg"
+          },
+          
+          { "title": "Fruits and Kahoots" },
+          { "intro": "A fun and educational fruit farm experience for families." },
+          {
+              "list": ["Farm tours", "Fruit picking", "Workshops"],
+              "image": "/images/fruits/kahoots.jpg.jpg"
+          },
+          
+          { "title": "Wayside Fruits and Veggies" },
+          { "intro": "A local market featuring a wide variety of fruits and vegetables." },
+          {
+              "list": ["Fresh produce", "Community events", "Cooking classes"],
+              "image": "/images/fruits/wayside.jpg"
+          }
+      
+    ], 
+  
+    "Fruits":[
+        {
+            "name": "Mango", 
+            "description": "Mangoes are a staple in Miami's tropical landscape, known for their sweet and juicy flavor. They are often used in smoothies, salsas, and desserts.", 
+            "image": "images/fruits/mango.jpg", 
+            "origin": "India and Southeast Asia", 
+            "growth": "tree"
+        },
+      
+        {
+            "name": "Papaya", 
+            "description": "Papayas are soft, sweet fruits with orange flesh and black seeds. They are commonly eaten fresh or blended into smoothies.", 
+            "image": "images/fruits/papaya.jpg", 
+            "origin": "Central America", 
+            "growth": "tree"
+        },
+      
+        {
+            "name": "Pitaya", 
+            "description": "Also known as dragon fruit, pitayas have a unique appearance with bright pink skin and white or red flesh dotted with tiny seeds. They are mildly sweet and often eaten raw.", 
+            "image": "images/fruits/pitaya.jpg", 
+            "origin": "Central America and Mexico", 
+            "growth": "cactus"
+        },
+      
+        {
+            "name": "Passionfruit", 
+            "description": "Passionfruit is a small, round fruit with a tough outer rind and aromatic, jelly-like pulp inside. It is used in drinks, desserts, and sauces.", 
+            "image": "images/fruits/passionfruit.jpg", 
+            "origin": "South America", 
+            "growth": "vine"
+        },
+      
+        {
+            "name": "Tamarind", 
+            "description": "Tamarind has a tangy-sweet flavor and is used in various cuisines around the world. Its pods contain a sticky pulp that is often used in sauces and beverages.", 
+            "image": "images/fruits/tamarind.jpg", 
+            "origin": "Africa and India", 
+            "growth": "tree"
+        },
+      
+        {
+            "name": "Mamey", 
+            "description": "Mamey has a creamy, sweet flesh and is often used in smoothies, ice creams, and desserts. Its unique flavor is beloved in many Latin American cuisines.", 
+            "image": "images/fruits/mamey.jpg", 
+            "origin": "Central America", 
+            "growth": "tree"
+        }
+    ]
+}

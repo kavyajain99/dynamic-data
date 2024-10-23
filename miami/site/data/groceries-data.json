@@ -1,0 +1,72 @@
+{
+    "title": "Best Middle Eastern Grocery Stores of Miami",
+    "abstract": "The Arab community in Miami is diverse and vibrant, with roots stretching back to early 20th-century immigration waves. Many Arab immigrants, particularly from Lebanon and Palestine, have contributed to Miami's cultural and culinary scene. Their presence is most notable in the city's Middle Eastern grocery stores and markets, which offer authentic products and a taste of home.",
+    "image": "/images/groceries/orientalBakery.jpg",
+    "services": [  
+      
+          { "title": "History of Lebanese in Miami" },
+          { "intro": "Lebanese immigrants began arriving in Miami in the early 1900s, seeking new economic opportunities. They established small businesses, including grocery stores, which became central to the community." },
+          {
+              "list": ["First Lebanese-owned grocery in 1930", "Growth of Lebanese cultural influence in Miami", "Role of Lebanese stores in popularizing Middle Eastern cuisine"],
+              "image": "/images/groceries/lebanon.png"
+          },
+          
+          { "title": "History of Greeks in Miami" },
+          { "intro": "Greek immigrants have also played a significant role in shaping Miami’s Mediterranean and Middle Eastern food markets. Many Greek-owned businesses have blended their culinary heritage with other Middle Eastern cultures, creating a fusion of flavors in grocery stores and restaurants." },
+          {
+              "list": ["Greek-owned stores in Little Havana", "Influence on Miami’s Mediterranean food scene", "Greek-Lebanese business partnerships"],
+              "image": "/images/groceries/greekChurch.jpg"
+          },
+          
+          { "title": "History of Palestinians in Miami" },
+          { "intro": "Palestinians, like Lebanese immigrants, have established a strong presence in Miami, especially in the food and hospitality industries. Their grocery stores often specialize in products that cater to the broader Arab and Mediterranean community." },
+          {
+              "list": ["Rise of Palestinian-owned markets in the 1980s", "Influence on regional cuisine", "Cultural and economic contributions to Miami"],
+              "image": "/images/groceries/palestine.jpg"
+    
+          }
+      
+    ], 
+  
+"restaurantsList":[
+      {
+          "name": "Shiraz Bistro And Market", 
+          "description": "A popular spot for Persian and Middle Eastern goods, offering a mix of groceries and traditional meals in a cozy environment.", 
+          "image": "/images/groceries/shiraz.jpg", 
+          "priceRange": "10-30 dollars", 
+          "distanceFromUMCampus": "5 miles"
+      },
+  
+      {
+        "name": "Oriental Bakery", 
+        "description": "Known for its fresh pita bread and imported Middle Eastern ingredients, Oriental Bakery has served the Miami community for decades.", 
+        "image": "/images/groceries/oriental.jpg", 
+        "priceRange": "5-20 dollars", 
+        "distanceFromUMCampus": "6 miles"
+    },
+  
+    {
+        "name": "Shah's Bazaar", 
+        "description": "Offering a wide variety of spices, dried fruits, and halal meats, Shah’s Bazar is a go-to market for Middle Eastern cooking needs.", 
+        "image": "/images/groceries/shahs.jpg", 
+        "priceRange": "15-35 dollars", 
+        "distanceFromUMCampus": "4 miles"
+    },
+  
+      {
+        "name": "Tarragon Middle East Market", 
+        "description": "Specializing in Middle Eastern spices and ingredients, Tarragon Market is a staple for those looking to recreate authentic dishes at home.", 
+        "image": "/images/groceries/tarragon.jpg", 
+        "priceRange": "10-40 dollars", 
+        "distanceFromUMCampus": "8 miles"
+      },
+  
+      {
+        "name": "The Middle East Best Food", 
+        "description": "A family-run market offering a wide selection of Middle Eastern groceries, including fresh produce, spices, and handmade sweets.", 
+        "image": "/images/groceries/best.jpg", 
+        "priceRange": "10-25 dollars", 
+        "distanceFromUMCampus": "7 miles"
+      }
+    ]
+  }

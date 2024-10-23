@@ -1,0 +1,82 @@
+{
+  "title": "Welcome To Miami",
+  "abstract": "Miami, located in southeastern Florida, is known for its vibrant culture, diverse population, and tropical climate. It's one of the most populous cities in the state and serves as a major hub for international business, finance, and tourism.",
+  "image": "/images/home/beach.jpg",
+  "services": [  
+    
+        { "title": "Miami's Early Days" },
+        { "intro": "Miami's history began with the early inhabitants of the region." },
+        {
+            "list": ["Tequesta tribes", "Ponce de Leon's exploration", "Spanish settlement"],
+            "image": "/images/home/tequesta.jpg"
+        },
+        
+        { "title": "Growth and Development" },
+        { "intro": "The 19th and 20th centuries marked Miami’s transformation into a major city." },
+        {
+            "list": ["Henry Flagler's railroad", "Incorporation in 1896", "Real estate boom of the 1920s"],
+            "image": "/images/home/flagler.jpg"
+        },
+        
+        { "title": "Modern Miami" },
+        { "intro": "Miami evolved into a diverse and dynamic city." },
+        {
+            "list": ["Cuban immigration after 1959", "Art Deco District", "Cultural and economic expansion"],
+            "image": "/images/home/urbanmiami.jpg"
+        }
+    
+  ], 
+
+"packages":[
+    {
+        "name": "South Beach", 
+        "description": "Famous for its Art Deco architecture and vibrant nightlife, South Beach is a hotspot for tourists and locals alike, known for its stunning beaches, trendy restaurants, and high-end shopping.", 
+        "image": "/images/home/modern.jpg", 
+        "price": "2.5", 
+        "duration": "Ocean Drive"
+    },
+
+    {
+        "name": "Little Havana", 
+        "description": "A cultural heart of the Cuban-American community, Little Havana is full of lively streets, Cuban coffee shops, and colorful murals that reflect the area's heritage.", 
+        "image": "/images/home/littleHavana.jpg", 
+        "price": "3", 
+        "duration": "Calle Ocho"
+    },
+
+    {
+        "name": "Wynwood", 
+        "description": "Once an industrial district, Wynwood has transformed into Miami’s center for contemporary art and creativity, with famous street art murals, galleries, and trendy cafes.", 
+        "image": "/images/homepage/wynwood.jpg", 
+        "price": "1.4", 
+        "duration": "Wynwood Walls"
+    },
+
+    {
+        "name": "Coral Gables", 
+        "description": "Known for its Mediterranean Revival architecture, Coral Gables is a picturesque neighborhood with tree-lined streets, historic landmarks, and upscale shopping.", 
+        "image": "/images/home/gables.jpg", 
+        "price": "13", 
+        "duration": "Miracle Mile"
+    },
+
+    {
+        "name": "Coconut Grove", 
+        "description": "One of Miami’s oldest neighborhoods, Coconut Grove is a charming, laid-back area known for its lush greenery, waterfront parks, and bohemian vibe.", 
+        "image": "/images/home/grove.jpg", 
+        "price": "5", 
+        "duration": "CocoWalk"
+    },
+
+    {
+        "name": "Brickell", 
+        "description": "As Miami's financial district, Brickell features sleek high-rises and luxury condos. It’s a bustling hub for business, dining, and nightlife.", 
+        "image": "/images/home/brickell.jpg", 
+        "price": "1.19", 
+        "duration": "Brickell City Centre"
+    }
+  ]
+}
+
+
+

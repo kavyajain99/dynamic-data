@@ -1,17 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    {{!-- here for owl --}}
+    <link rel="stylesheet" href="/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/owl/assets/owl.theme.default.min.css">
+    {{!-- overrides --}}
+    <link rel="stylesheet" href="/css/miami.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <ul>
+  {{!-- include a partial (for nav)--}}
+  {{>nav siteName="Miami Travel}}
+        {{!-- begin navegation --}}
+        {{!-- <nav class="navbar navbar-expand-lg purple-bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Miami Travel</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/mango-trees">Mango Trees</a>
+        </li>
+        <li class="nav-item"></li>
+          <a class="nav-link" href="/cats">Cats</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> --}}
+        {{!-- end navegation --}}
+
+
+
+        {{!-- old menu 
         <li><a href = "/"> Home</a></li>
         <li><a href = "/about"> About</a></li>
         <li><a href = "/mango-trees"> mango trees</a></li>
         <li><a href = "/cats"> this should trigger an error</a></li>
+        --}}
     </ul>
+    <div class=" container">
+
     {{{body}}}
-</body>
+
+    {{>gallery}}
+
+    </div>
+    {{!-- jquery --}}
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+      crossorigin="anonymous"></script>
+
+    {{!-- bootstrap --}}
+    <script src="/js/bootstrap.bundle.js"></script>
+
+    <script>
+      $(function () {
+        $('.owl-packages').owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+      });
+    </script>
+
+    <script src="/owl/owl.carousel.min.js"></script>
+
+    </body>
 </html>

@@ -1,0 +1,75 @@
+{
+    "title": "Best parks of Miami",
+    "abstract": "Miami is home to a vast network of parks that provide residents and visitors with opportunities to enjoy nature, recreation, and scenic beauty. The city’s parks range from historic landmarks to modern urban green spaces, each offering unique experiences.",
+    "image": "/images/parks/bayfront.jpg",
+    "services": [  
+      
+          { "title": "History of Parks" },
+          { "intro": "Miami's parks system has a rich history, starting from the early 20th century when public spaces were first established to provide relief from urban development." },
+          {
+              "list": ["Bayfront Park founded in 1925", "Creation of Fairchild Tropical Botanic Garden", "Bill Baggs Cape Florida Park established in 1967"],
+              "image": "/images/parks/general.jpg"
+          },
+          
+          { "title": "Public Policy" },
+          { "intro": "Miami's parks are shaped by public policies focused on environmental conservation, urban planning, and community well-being. These policies ensure the maintenance and development of green spaces for future generations." },
+          {
+              "list": ["Parks Master Plan 2030", "Sustainability initiatives", "Urban parks and green infrastructure policy"],
+              "image": "/images/parks/policy.jpg"
+          },
+          
+          { "title": "Governance" },
+          { "intro": "The governance of Miami’s parks is managed by the Miami-Dade County Parks, Recreation, and Open Spaces Department, one of the largest park systems in the nation. Their efforts include park planning, design, maintenance, and community programming." },
+          {
+              "list": ["Miami-Dade Parks Department", "Park funding and budget allocation", "Community-driven projects and volunteer programs"],
+              "image": "/images/parks/governance.jpg"
+          }
+      
+    ],
+  
+"parksList":[
+      {
+          "name": "Allison Park", 
+          "description": "A peaceful beachfront park in North Beach, Allison Park offers green space, picnic areas, and easy access to the ocean.", 
+          "image": "/images/parks/allison.jpg", 
+          "squareMiles": "0.03", 
+          "timeToSpend": "1-2 hours"
+      },
+  
+      {
+        "name": "Tropical Park", 
+        "description": "This large park features athletic fields, a stadium, lakes for paddle boating, and running tracks, making it perfect for outdoor activities.", 
+        "image": "/images/parks/tropical.jpg", 
+        "squareMiles": "2.2", 
+        "timeToSpend": "3-4 hours"
+      },
+  
+      {
+        "name": "Brickell Key Park", 
+        "description": "Located on a small island, Brickell Key Park offers stunning views of the Miami skyline and the bay, perfect for a leisurely walk or a relaxing day.", 
+        "image": "/images/parks/key.jpg", 
+        "squareMiles": "0.1", 
+        "timeToSpend": "1-2 hours"
+      },
+  
+      {
+        "name": "Bill Baggs Cape Florida State Park", 
+        "description": "Home to the historic Cape Florida Lighthouse, this park offers nature trails, beachfront access, and rich history on the tip of Key Biscayne.", 
+        "image": "/images/parks/billBags.jpg", 
+        "squareMiles": "1.3", 
+        "timeToSpend": "3-4 hours"
+      },
+  
+      {
+        "name": "Haulover Pump Track", 
+        "description": "The Haulover Pump Track is a popular destination for cyclists and skateboarders, featuring a smooth, looped track designed for all skill levels. It’s surrounded by lush greenery and offers a vibrant community atmosphere.", 
+        "image": "/images/parks/pumpTrack.jpg", 
+        "squareMiles": "0.1", 
+        "timeToSpend": "1-3 hours"
+      }
+    ]
+  }
+  
+  
+  
+  

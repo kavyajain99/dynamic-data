@@ -1,38 +1,12 @@
-{{!-- 
-    c
-    o
-    m
-    m
-    e
-    n
-    t
-     --}}
-     {{!-- .row class is from bootstraps grid --}}
+{{!-- .row class is from bootstraps grid --}}
 <div class="row">
     {{!-- our image loop --}}
-<div class="row gallery">
-{{#each gallery.images}}
-<div class="col-3 galleryItem">
-    <img class="img-fluid" src="{{this.url}}" alt="{{this.title}}">
+    <div class="row gallery">
+        {{#each gallery.images}}
+        <div class="col-3 galleryItem">
+            <img class="img-fluid" src="{{this.url}}" alt="{{this.title}}">
+        </div>
+        {{/each}}
+    </div>
 </div>
-{{/each}}
-
-
-{{!-- <div class="col-3">
-    <img class="img-fluid" src="/images/tree.jpg" alt="">
-</div>
-<div class="col-3">
-    <img class="img-fluid" src="/images/tree.jpg" alt="">
-</div>
-<div class="col-3">
-    <img class="img-fluid" src="/images/tree.jpg" alt="">
-</div>
-<div class="col-3">
-    <img class="img-fluid" src="/images/tree.jpg" alt="">
-</div>
-<div class="col-3">
-    <img class="img-fluid" src="/images/tree.jpg" alt="">
-</div> --}}
-</div> 
-</div> 
 {{!-- end row --}}

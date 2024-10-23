@@ -26,6 +26,29 @@ h1 {
     object-fit: cover;
 }
 
+/* 
+row{
+    aspect-ratio: 4/4; 
+    /* 4/4 is square , 6/3 is wide ....
+    object-fit: cover;
+} 
+*/
+
+.row{
+    padding-top: 2%;
+}
+.galleryItem {
+    padding: 0.5%; 
+}
+
+.galleryItem img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;   
+}
+
+
 .accordion-header{
     text-align: center;
     font-weight: 800;

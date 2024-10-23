@@ -1,14 +1,77 @@
 p{
-    text-align: center;
-    font-size: 40px;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
 }
 
 .purple-bg{
     background-color: #CCCCFF;
 }
+
 h1 {
+    text-align: center;
+    font-weight: 800;
     font-family: 'Poiret One', cursive;
 }
 
-
+.card-img-top {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
   
+.gallery img {
+    aspect-ratio: 4/4; 
+    /* 4/4 is square , 6/3 is wide ....*/
+    object-fit: cover;
+}
+
+.accordion-header{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+
+.nav-item{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+}
+
+.navbar-brand{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Poiret One', cursive;
+    font-size: 26px; 
+}
+
+.nav-item{
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Poiret One', cursive;
+    font-size: 22px;
+}
+
+.accordion-body{
+    text-align: left;
+    font-size: 20px;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.list-group-item{
+    text-align: left;
+    font-family: "Afacad Flux", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.hero{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

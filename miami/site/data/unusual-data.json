@@ -4,12 +4,8 @@
     "image": "/images/unusual/general.jpg",
     "services": [
         {
-            "title": "Hippies"
-        },
-        {
-            "intro": "Explore Miami's counterculture with a day dedicated to free spirits and creative expression."
-        },
-        {
+            "title": "Hippies",
+            "intro": "Explore Miami's counterculture with a day dedicated to free spirits and creative expression.",
             "list": [
                 "Visit the Wynwood Walls for stunning street art.",
                 "Join a drum circle at Virginia Key Beach.",
@@ -18,12 +14,8 @@
             "image": "/images/unusual/gippies.jpg"
         },
         {
-            "title": "Bibliophiles"
-        },
-        {
-            "intro": "For those who find solace in books, Miami offers a literary adventure filled with unique libraries and bookshops."
-        },
-        {
+            "title": "Bibliophiles",
+            "intro": "For those who find solace in books, Miami offers a literary adventure filled with unique libraries and bookshops.",
             "list": [
                 "Browse rare finds at the Books & Books store in Coral Gables.",
                 "Join a book club at the Miami Beach Library.",
@@ -32,12 +24,8 @@
             "image": "/images/unusual/books.jpg"
         },
         {
-            "title": "Rooftop Lovers"
-        },
-        {
-            "intro": "Experience Miami from above with stunning rooftop views that offer a unique perspective of the city skyline and vibrant atmosphere."
-        },
-        {
+            "title": "Rooftop Lovers",
+            "intro": "Experience Miami from above with stunning rooftop views that offer a unique perspective of the city skyline and vibrant atmosphere.",
             "list": [
                 "Sip cocktails and enjoy breathtaking views at Rosa Sky, where the vibrant ambiance meets delicious drinks.",
                 "Unwind at Oasis, a lush rooftop garden that combines nature with stunning skyline vistas, perfect for relaxation and gatherings.",
@@ -51,43 +39,43 @@
             "name": "Fire Dancing at Skatebird",
             "description": "Join a vibrant community of performers for an electrifying night of fire dancing, where the rhythm of music meets the mesmerizing dance of flames.",
             "image": "images/unusual/fire.jpg",
-            "location": "Skatebird, 1920 NE 149th St",
-            "cost": "Free to watch, donations encouraged"
+            "price": "Skatebird, 1920 NE 149th St",
+            "duration": "Free to watch, donations encouraged"
         },
         {
             "name": "Urban Foraging with Dropped Fruit Map",
             "description": "Embark on a scavenger hunt across the city to discover nature's bounty with a community-driven map highlighting the best spots for foraging fruit.",
             "image": "/images/unusual/avocado.jpg",
-            "location": "Various locations throughout Miami",
-            "cost": "Free"
+            "price": "Various locations throughout Miami",
+            "duration": "Free"
         },
         {
             "name": "420 Yoga at Space",
             "description": "Unwind with a unique blend of yoga and relaxation, accompanied by the soothing effects of plants in a serene environment.",
             "image": "/images/unusual/yoga.jpg",
-            "location": "Space, 34 NE 11th St",
-            "cost": "$20 per class"
+            "price": "Space, 34 NE 11th St",
+            "duration": "$20 per class"
         },
         {
             "name": "Rock Climbing at Velocity",
             "description": "Challenge yourself with a thrilling indoor rock climbing experience at Velocity, suitable for all skill levels. Meet fellow climbers and enjoy a supportive atmosphere.",
             "image": "/images/unusual/rocks.jpg",
-            "location": "Velocity, 8810 SW 129th Ct",
-            "cost": "$25 day pass"
+            "price": "Velocity, 8810 SW 129th Ct",
+            "duration": "$25 day pass"
         },
         {
             "name": "Miami Main Branch Library",
             "description": "Delve into Miami's literary treasures at the Main Branch Library, where you can find rare books, attend workshops, and explore the innovative space.",
             "image": "/images/unusual/lib.jpg",
-            "location": "101 W Flagler St",
-            "cost": "Free"
+            "price": "101 W Flagler St",
+            "duration": "Free"
         },
         {
             "name": "Crandon Park Zoo Ruins",
             "description": "Explore the haunting beauty of the Crandon Park Zoo ruins, where nature reclaims the remnants of the past. A perfect spot for photography and quiet reflection.",
             "image": "/images/unusual/crandon.jpg",
-            "location": "Crandon Park, 6747 Crandon Blvd",
-            "cost": "Free"
+            "price": "Crandon Park, 6747 Crandon Blvd",
+            "duration": "Free"
         }
     ]
 }

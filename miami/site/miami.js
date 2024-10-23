@@ -25,10 +25,10 @@ const gallery = require ("./data/gallery.json")
 app.get('/', (request, response) => {
     //console.log(gallery)
 
-    const homeData = require("./data/home-data.json")
+    const data = require("./data/home-data.json")
     response.render('landing',{
         gallery,
-        homeData
+        data
     })
     // response.render('landing', {
     //     gallery, 
@@ -39,32 +39,32 @@ app.get('/', (request, response) => {
     })
 
 app.get('/fruits', (request, response) => {
-    const fruitsData = require("./data/fruits-data.json")
+    const data = require("./data/fruits-data.json")
     response.render('landing', {
         gallery,
-        fruitsData
+        data
     }) 
 })   
      
 app.get('/groceries', (request, response) => {
-    const groceriesData = require("./data/groceries-data.json")
+    const data = require("./data/groceries-data.json")
     response.render('landing', {
         gallery,
-        groceriesData
+        data
     }) 
 })      
 app.get('/parks', (request, response) => {
-    const parksData = require("./data/parks-data.json")
+    const data = require("./data/parks-data.json")
     response.render('landing', {
         gallery,
-        parksData
+        data
     })  
 })          
 app.get('/unusual', (request, response) => {
-    const fruitsData = require("./data/unusual-data.json")
+    const data = require("./data/unusual-data.json")
     response.render('landing', {
         gallery,
-        unusualData
+        data
     })      
 })  
 // app.get('/mango-trees', (request, response) => {

@@ -4,24 +4,36 @@
   "image": "/images/home/beach.jpg",
   "services": [  
     
-        { "title": "Miami's Early Days" },
-        { "intro": "Miami's history began with the early inhabitants of the region." },
         {
-            "list": ["Tequesta tribes", "Ponce de Leon's exploration", "Spanish settlement"],
+            "title": "Miami's Early Days",
+            "intro": "Miami's history began with the early inhabitants of the region.",
+            "list": [
+                "Tequesta tribes",
+                "Ponce de Leon's exploration",
+                "Spanish settlement"
+            ],
             "image": "/images/home/tequesta.jpg"
         },
         
-        { "title": "Growth and Development" },
-        { "intro": "The 19th and 20th centuries marked Miami’s transformation into a major city." },
         {
-            "list": ["Henry Flagler's railroad", "Incorporation in 1896", "Real estate boom of the 1920s"],
+            "title": "Growth and Development",
+            "intro": "The 19th and 20th centuries marked Miami’s transformation into a major city.",
+            "list": [
+                "Henry Flagler's railroad",
+                "Incorporation in 1896",
+                "Real estate boom of the 1920s"
+            ],
             "image": "/images/home/flagler.jpg"
         },
         
-        { "title": "Modern Miami" },
-        { "intro": "Miami evolved into a diverse and dynamic city." },
         {
-            "list": ["Cuban immigration after 1959", "Art Deco District", "Cultural and economic expansion"],
+            "title": "Modern Miami",
+            "intro": "Miami evolved into a diverse and dynamic city.",
+            "list": [
+                "Cuban immigration after 1959",
+                "Art Deco District",
+                "Cultural and economic expansion"
+            ],
             "image": "/images/home/urbanmiami.jpg"
         }
     

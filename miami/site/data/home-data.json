@@ -59,7 +59,7 @@
     {
         "name": "Wynwood", 
         "description": "Once an industrial district, Wynwood has transformed into Miami’s center for contemporary art and creativity, with famous street art murals, galleries, and trendy cafes.", 
-        "image": "/images/homepage/wynwood.jpg", 
+        "image": "/images/home/wynwood.jpg", 
         "price": "1.4", 
         "duration": "Wynwood Walls"
     },

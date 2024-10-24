@@ -11,7 +11,7 @@
                 "Join a drum circle at Virginia Key Beach.",
                 "Attend a local music festival featuring indie artists."
             ],
-            "image": "/images/unusual/gippies.jpg"
+            "image": "/images/unusual/hippies.jpg"
         },
         {
             "title": "Bibliophiles",
@@ -34,7 +34,7 @@
             "image": "/images/unusual/rooftop.jpg"
         }
     ],
-    "Things to do": [
+    "packages": [
         {
             "name": "Fire Dancing at Skatebird",
             "description": "Join a vibrant community of performers for an electrifying night of fire dancing, where the rhythm of music meets the mesmerizing dance of flames.",

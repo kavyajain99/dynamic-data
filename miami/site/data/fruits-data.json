@@ -21,7 +21,7 @@
                 "Fruit picking",
                 "Workshops"
             ],
-            "image": "/images/fruits/kahoots.jpg.jpg"
+            "image": "/images/fruits/kahoots.jpg"
         },
         {
             "title": "Wayside Fruits and Veggies",
@@ -36,7 +36,7 @@
       
     ], 
   
-    "Fruits":[
+    "packages":[
         {
             "name": "Mango", 
             "description": "Mangoes are a staple in Miami's tropical landscape, known for their sweet and juicy flavor. They are often used in smoothies, salsas, and desserts.", 

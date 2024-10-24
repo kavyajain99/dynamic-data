@@ -6,7 +6,7 @@ p{
 }
 
 .purple-bg{
-    background-color: #CCCCFF;
+    background-color: #9898ee;
 }
 
 h1 {
@@ -97,4 +97,5 @@ row{
     width: 50%;
     padding-top: 2%;
     padding-bottom: 2%;
+    border-radius: 6%;
 }

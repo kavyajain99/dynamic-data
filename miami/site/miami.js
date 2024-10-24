@@ -67,10 +67,6 @@ app.get('/unusual', (request, response) => {
         data
     })      
 })  
-// app.get('/mango-trees', (request, response) => {
-//     response.type('text/plain')
-//     response.send('Mango trees');
-//     })  
 
 // -----> THIS TRIGGERS A SERVER ERROR 
 // app.get('/cats', (hello, world) => {
@@ -78,12 +74,6 @@ app.get('/unusual', (request, response) => {
 //     response.send('Stray cats');
 //     })     
 
-// app.get('/history', (request, response) => {
-//     response.type('text/plain')
-//     response.send('history of miami');
-//     }) 
-
- 
 
 /******* ERROR HANDLING *******/ 
 

@@ -1,0 +1,24 @@
+<h1>Basic form</h1>
+
+{{#if request.query.fieldColor}}
+<p>
+    Your favorite color is : {{request.query.fieldColor}}
+</p>
+
+{{/if}}
+
+<form action="/" method="GET">
+<input type="hidden" name="hush" val="hidden but not secret">
+<div>
+    {{!-- question 1 --}}
+    <label for="fieldColor"> Your favorite color: </label> 
+    <input type="text" id="fieldColor" name="fieldColor">
+
+    <div>
+        <button type="submit">SUBMIT</button>
+    </div>
+
+</div>
+
+
+</form>

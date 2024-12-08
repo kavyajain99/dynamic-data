@@ -1,0 +1,10 @@
+<form action="/cart/process" method="POST">
+    <input type="hidden" name="id" value ="{{currData.id}}">
+    <input type="hidden" name="category" value ="{{currData.name}}">
+    <input type="hidden" name="description" value ="{{currData.description}}">
+    <input type="hidden" name="price" value ="{{currData.price}}">
+    <input type="hidden" name="image" value ="{{currData.image}}">
+
+    <button type="submit" class="btn btn-primary">ADD TO CART</button>
+
+</form>

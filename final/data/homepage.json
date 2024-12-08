@@ -1,0 +1,477 @@
+{
+    "category":"homepage",
+    "products": [
+
+        {
+            "id": 1,
+            "category": "amphibians",
+            "name": "Frog",
+            "Description": "A small, tailless amphibian that hops and lives both in water and on land.",
+            "price": 0.00,
+            "image": "/images/amphibians/frog.jpg",
+            "gallery": [
+                "/images/amphibians/frog_1.jpg",
+                "/images/amphibians/frog_2.jpg",
+                "/images/amphibians/frog_3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "amphibians",
+            "name": "Salamander",
+            "Description": "A slender-bodied amphibian with a long tail and moist skin.",
+            "price": 0.00,
+            "image": "/images/amphibians/salamander.jpg",
+            "gallery": [
+                "/images/amphibians/salamander_1.jpg",
+                "/images/amphibians/salamander_2.jpg",
+                "/images/amphibians/salamander_3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "amphibians",
+            "name": "Toad",
+            "Description": "A warty-skinned amphibian that is often found farther from water.",
+            "price": 0.00,
+            "image": "/images/amphibians/toad.jpg",
+            "gallery": [
+                "/images/amphibians/toad_1.jpg",
+                "/images/amphibians/toad_2.jpg",
+                "/images/amphibians/toad_3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "amphibians",
+            "name": "Axolotl",
+            "Description": "A unique amphibian that remains aquatic and retains gills throughout its life.",
+            "price": 0.00,
+            "image": "/images/amphibians/axolotl.jpg",
+            "gallery": [
+                "/images/amphibians/axolotl_1.jpg",
+                "/images/amphibians/axolotl_2.jpg",
+                "/images/amphibians/axolotl_3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "amphibians",
+            "name": "Newt",
+            "Description": "A small aquatic amphibian that often has bright, colorful skin.",
+            "price": 0.00,
+            "image": "/images/amphibians/newt.jpg",
+            "gallery": [
+                "/images/amphibians/newt_1.jpg",
+                "/images/amphibians/newt_2.jpg",
+                "/images/amphibians/newt_3.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "amphibians",
+            "name": "Caecilian",
+            "Description": "A limbless, snake-like amphibian that burrows in the ground.",
+            "price": 0.00,
+            "image": "/images/amphibians/caecilian.jpg",
+            "gallery": [
+                "/images/amphibians/caecilian_1.jpg",
+                "/images/amphibians/caecilian_2.jpg",
+                "/images/amphibians/caecilian_3.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "amphibians",
+            "name": "Glass Frog",
+            "Description": "An amphibian with translucent skin, revealing its internal organs.",
+            "price": 0.00,
+            "image": "/images/amphibians/glass_frog.jpg",
+            "gallery": [
+                "/images/amphibians/glass_frog_1.jpg",
+                "/images/amphibians/glass_frog_2.jpg",
+                "/images/amphibians/glass_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "amphibians",
+            "name": "Tree Frog",
+            "Description": "A small, arboreal amphibian known for its adhesive toe pads.",
+            "price": 0.00,
+            "image": "/images/amphibians/tree_frog.jpg",
+            "gallery": [
+                "/images/amphibians/tree_frog_1.jpg",
+                "/images/amphibians/tree_frog_2.jpg",
+                "/images/amphibians/tree_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "amphibians",
+            "name": "Dart Frog",
+            "Description": "A brightly colored frog that secretes toxic chemicals as a defense.",
+            "price": 0.00,
+            "image": "/images/amphibians/dart_frog.jpg",
+            "gallery": [
+                "/images/amphibians/dart_frog_1.jpg",
+                "/images/amphibians/dart_frog_2.jpg",
+                "/images/amphibians/dart_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "amphibians",
+            "name": "Hellbender",
+            "Description": "A large aquatic salamander found in North America.",
+            "price": 0.00,
+            "image": "/images/amphibians/hellbender.jpg",
+            "gallery": [
+                "/images/amphibians/hellbender_1.jpg",
+                "/images/amphibians/hellbender_2.jpg",
+                "/images/amphibians/hellbender_3.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "amphibians",
+            "name": "Mudpuppy",
+            "Description": "An aquatic salamander that retains external gills as an adult.",
+            "price": 0.00,
+            "image": "/images/amphibians/mudpuppy.jpg",
+            "gallery": [
+                "/images/amphibians/mudpuppy_1.jpg",
+                "/images/amphibians/mudpuppy_2.jpg",
+                "/images/amphibians/mudpuppy_3.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "amphibians",
+            "name": "Olm",
+            "Description": "A blind aquatic salamander adapted to life in caves.",
+            "price": 0.00,
+            "image": "/images/amphibians/olm.jpg",
+            "gallery": [
+                "/images/amphibians/olm_1.jpg",
+                "/images/amphibians/olm_2.jpg",
+                "/images/amphibians/olm_3.jpg"
+            ]
+        },
+        {
+            "id": 13,
+            "category": "mammals",
+            "name": "Elephant",
+            "Description": "A large herbivorous mammal with a trunk.",
+            "price": 0.00,
+            "image": "/images/mammals/elephant.jpg",
+            "gallery": [
+                "/images/mammals/elephant_1.jpg",
+                "/images/mammals/elephant_2.jpg",
+                "/images/mammals/elephant_3.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "category": "mammals",
+            "name": "Tiger",
+            "Description": "A powerful carnivorous feline with orange and black stripes.",
+            "price": 0.00,
+            "image": "/images/mammals/tiger.jpg",
+            "gallery": [
+                "/images/mammals/tiger_1.jpg",
+                "/images/mammals/tiger_2.jpg",
+                "/images/mammals/tiger_3.jpg"
+            ]
+        },
+        {
+            "id": 15,
+            "category": "mammals",
+            "name": "Zebra",
+            "Description": "A herbivorous mammal with distinctive black and white stripes.",
+            "price": 0.00,
+            "image": "/images/mammals/zebra.jpg",
+            "gallery": [
+                "/images/mammals/zebra_1.jpg",
+                "/images/mammals/zebra_2.jpg",
+                "/images/mammals/zebra_3.jpg"
+            ]
+        },
+        {
+            "id": 16,
+            "category": "mammals",
+            "name": "Lion",
+            "Description": "Known as the king of the jungle, a carnivorous feline.",
+            "price": 0.00,
+            "image": "/images/mammals/lion.jpg",
+            "gallery": [
+                "/images/mammals/lion_1.jpg",
+                "/images/mammals/lion_2.jpg",
+                "/images/mammals/lion_3.jpg"
+            ]
+        },
+        {
+            "id": 17,
+            "category": "mammals",
+            "name": "Giraffe",
+            "Description": "The tallest land animal with a long neck and legs.",
+            "price": 0.00,
+            "image": "/images/mammals/giraffe.jpg",
+            "gallery": [
+                "/images/mammals/giraffe_1.jpg",
+                "/images/mammals/giraffe_2.jpg",
+                "/images/mammals/giraffe_3.jpg"
+            ]
+        },
+        {
+            "id": 18,
+            "category": "mammals",
+            "name": "Kangaroo",
+            "Description": "A marsupial known for its powerful hind legs and pouch.",
+            "price": 0.00,
+            "image": "/images/mammals/kangaroo.jpg",
+            "gallery": [
+                "/images/mammals/kangaroo_1.jpg",
+                "/images/mammals/kangaroo_2.jpg",
+                "/images/mammals/kangaroo_3.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "category": "mammals",
+            "name": "Panda",
+            "Description": "A bear-like herbivore native to China, known for its black and white fur.",
+            "price": 0.00,
+            "image": "/images/mammals/panda.jpg",
+            "gallery": [
+                "/images/mammals/panda_1.jpg",
+                "/images/mammals/panda_2.jpg",
+                "/images/mammals/panda_3.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "category": "mammals",
+            "name": "Sloth",
+            "Description": "A slow-moving tree-dweller known for its relaxed lifestyle.",
+            "price": 0.00,
+            "image": "/images/mammals/sloth.jpg",
+            "gallery": [
+                "/images/mammals/sloth_1.jpg",
+                "/images/mammals/sloth_2.jpg",
+                "/images/mammals/sloth_3.jpg"
+            ]
+        },
+        {
+            "id": 21,
+            "category": "mammals",
+            "name": "Koala",
+            "Description": "A tree-dwelling marsupial that feeds on eucalyptus leaves.",
+            "price": 0.00,
+            "image": "/images/mammals/koala.jpg",
+            "gallery": [
+                "/images/mammals/koala_1.jpg",
+                "/images/mammals/koala_2.jpg",
+                "/images/mammals/koala_3.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "category": "mammals",
+            "name": "Wolf",
+            "Description": "A wild carnivorous canine known for its pack behavior.",
+            "price": 0.00,
+            "image": "/images/mammals/wolf.jpg",
+            "gallery": [
+                "/images/mammals/wolf_1.jpg",
+                "/images/mammals/wolf_2.jpg",
+                "/images/mammals/wolf_3.jpg"
+            ]
+        },
+        {
+            "id": 23,
+            "category": "mammals",
+            "name": "Fox",
+            "Description": "A small, omnivorous canine known for its cunning nature.",
+            "price": 0.00,
+            "image": "/images/mammals/fox.jpg",
+            "gallery": [
+                "/images/mammals/fox_1.jpg",
+                "/images/mammals/fox_2.jpg",
+                "/images/mammals/fox_3.jpg"
+            ]
+        },
+        {
+            "id": 24,
+            "category": "mammals",
+            "name": "Chimpanzee",
+            "Description": "An intelligent primate closely related to humans.",
+            "price": 0.00,
+            "image": "/images/mammals/chimpanzee.jpg",
+            "gallery": [
+                "/images/mammals/chimpanzee_1.jpg",
+                "/images/mammals/chimpanzee_2.jpg",
+                "/images/mammals/chimpanzee_3.jpg"
+            ]
+        },    
+        
+        {
+            "id": 25,
+            "category": "plants",
+            "name": "Venus Flytrap",
+            "Description": "A carnivorous plant that traps and digests insects in its jaw-like leaves.",
+            "price": 0.00,
+            "image": "/images/plants/venus_flytrap.jpg",
+            "gallery": [
+                "/images/plants/venus_flytrap_1.jpg",
+                "/images/plants/venus_flytrap_2.jpg",
+                "/images/plants/venus_flytrap_3.jpg"
+            ]
+        },
+        {
+            "id": 26,
+            "category": "plants",
+            "name": "Baobab Tree",
+            "Description": "A massive tree known as the 'Tree of Life,' found in Africa and capable of storing water in its trunk.",
+            "price": 0.00,
+            "image": "/images/plants/baobab.jpg",
+            "gallery": [
+                "/images/plants/baobab_1.jpg",
+                "/images/plants/baobab_2.jpg",
+                "/images/plants/baobab_3.jpg"
+            ]
+        },
+        {
+            "id": 27,
+            "category": "plants",
+            "name": "Rafflesia",
+            "Description": "A parasitic plant with the world’s largest flower, known for its strong odor of decaying flesh.",
+            "price": 0.00,
+            "image": "/images/plants/rafflesia.jpg",
+            "gallery": [
+                "/images/plants/rafflesia_1.jpg",
+                "/images/plants/rafflesia_2.jpg",
+                "/images/plants/rafflesia_3.jpg"
+            ]
+        },
+        {
+            "id": 28,
+            "category": "plants",
+            "name": "Corpse Flower",
+            "Description": "A rare flowering plant that emits a smell resembling rotting meat when in bloom.",
+            "price": 0.00,
+            "image": "/images/plants/corpse_flower.jpg",
+            "gallery": [
+                "/images/plants/corpse_flower_1.jpg",
+                "/images/plants/corpse_flower_2.jpg",
+                "/images/plants/corpse_flower_3.jpg"
+            ]
+        },
+        {
+            "id": 29,
+            "category": "plants",
+            "name": "Dragon Blood Tree",
+            "Description": "A visually striking tree with umbrella-like branches and red sap known as 'dragon's blood.'",
+            "price": 0.00,
+            "image": "/images/plants/dragon_blood_tree.jpg",
+            "gallery": [
+                "/images/plants/dragon_blood_tree_1.jpg",
+                "/images/plants/dragon_blood_tree_2.jpg",
+                "/images/plants/dragon_blood_tree_3.jpg"
+            ]
+        },
+        {
+            "id": 30,
+            "category": "plants",
+            "name": "Pitcher Plant",
+            "Description": "A carnivorous plant with tubular leaves that trap and digest insects.",
+            "price": 0.00,
+            "image": "/images/plants/pitcher_plant.jpg",
+            "gallery": [
+                "/images/plants/pitcher_plant_1.jpg",
+                "/images/plants/pitcher_plant_2.jpg",
+                "/images/plants/pitcher_plant_3.jpg"
+            ]
+        },
+        {
+            "id": 31,
+            "category": "plants",
+            "name": "Welwitschia",
+            "Description": "A desert plant with only two leaves, known for living up to 1,500 years in the Namib Desert.",
+            "price": 0.00,
+            "image": "/images/plants/welwitschia.jpg",
+            "gallery": [
+                "/images/plants/welwitschia_1.jpg",
+                "/images/plants/welwitschia_2.jpg",
+                "/images/plants/welwitschia_3.jpg"
+            ]
+        },
+        {
+            "id": 32,
+            "category": "plants",
+            "name": "Sensitive Plant",
+            "Description": "Also known as Mimosa pudica, this plant folds its leaves when touched or disturbed.",
+            "price": 0.00,
+            "image": "/images/plants/sensitive_plant.jpg",
+            "gallery": [
+                "/images/plants/sensitive_plant_1.jpg",
+                "/images/plants/sensitive_plant_2.jpg",
+                "/images/plants/sensitive_plant_3.jpg"
+            ]
+        },
+        {
+            "id": 33,
+            "category": "plants",
+            "name": "Rainbow Eucalyptus",
+            "Description": "A tree with a multicolored bark that looks like a natural work of art.",
+            "price": 0.00,
+            "image": "/images/plants/rainbow_eucalyptus.jpg",
+            "gallery": [
+                "/images/plants/rainbow_eucalyptus_1.jpg",
+                "/images/plants/rainbow_eucalyptus_2.jpg",
+                "/images/plants/rainbow_eucalyptus_3.jpg"
+            ]
+        },
+        {
+            "id": 34,
+            "category": "plants",
+            "name": "Cobra Lily",
+            "Description": "A carnivorous plant with leaves resembling a cobra ready to strike.",
+            "price": 0.00,
+            "image": "/images/plants/cobra_lily.jpg",
+            "gallery": [
+                "/images/plants/cobra_lily_1.jpg",
+                "/images/plants/cobra_lily_2.jpg",
+                "/images/plants/cobra_lily_3.jpg"
+            ]
+        },
+        {
+            "id": 35,
+            "category": "plants",
+            "name": "Sundew",
+            "Description": "A sticky carnivorous plant that traps insects on its glistening leaves.",
+            "price": 0.00,
+            "image": "/images/plants/sundew.jpg",
+            "gallery": [
+                "/images/plants/sundew_1.jpg",
+                "/images/plants/sundew_2.jpg",
+                "/images/plants/sundew_3.jpg"
+            ]
+        },
+        {
+            "id": 36,
+            "category": "plants",
+            "name": "Waterwheel Plant",
+            "Description": "An aquatic carnivorous plant that uses a snapping trap mechanism to catch prey.",
+            "price": 0.00,
+            "image": "/images/plants/waterwheel.jpg",
+            "gallery": [
+                "/images/plants/waterwheel_1.jpg",
+                "/images/plants/waterwheel_2.jpg",
+                "/images/plants/waterwheel_3.jpg"
+            ]
+        }
+
+    ]
+    
+}    

@@ -1,0 +1,84 @@
+<div class="custom-banner-2">
+        <h1 class="custom-banner-title"> Welcome To...<br> <i> Build Your Own Backyard Zoo! </i> </h1>
+
+    </div>
+
+    <p class="centered-text"> Welcome to the most thrilling backyard adventure you'll ever embark on! Here at Build Your Own Backyard Zoo, we believe
+        every home deserves a touch of the wild—just don't tell the neighbors or the local authorities. Whether you're
+        looking to purchase a lion or an axolotl, we've got you covered (though we are not liable for incurring unlicensed
+        exotic pet ownership fines). Remember, it's only illegal if you get caught! </p>
+
+<div class="container">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            {{#each (groupedProducts data.products 3)}}
+                <div class="carousel-item {{#if @first}}active{{/if}}">
+                    <div class="row">
+                        {{#each this}}
+                            <div class="col-md-4">
+                                <img src="{{this.image}}" class="d-block w-100 slides" alt="{{this.Description}}">
+                            </div>
+                        {{/each}}
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+{{!-- this is the owl card stollen from midterm modified for current structure--}}
+
+    <h1>featured products here []</h1>
+
+<div class="row owl-theme owl-carousel owl-packages">
+
+    {{#each data.products}}
+    <div class="card">
+        <img src="{{this.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">{{this.name}}</h5>
+            <p class="card-text">{{this.description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">$ {{this.price}}</li>
+        </ul>
+    </div>
+    {{/each}}
+</div>
+
+
+{{!-- this is the categories --}}
+
+<div class="container home-categories">
+        
+        <div class="row">
+            <div class="col-md-4">
+                <a href="/plants/category">
+                     <h2>Plants</h2>
+                    <img src="/images/plants/sensitive_plant_1.jpg" class="img-fluid gallery" alt="Plants">
+                    
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/mammals/category">
+                     <h2>Mammals</h2>
+                    <img src="/images/mammals/elephant.jpg" class="img-fluid gallery" alt="Mammals">
+                   
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/amphibians/category">
+                    <h2>Amphibians</h2>
+                    <img src="/images/amphibians/glass_frog.jpg" class="img-fluid gallery" alt="Amphibians">
+                </a>
+            </div>
+        </div>
+    </div>

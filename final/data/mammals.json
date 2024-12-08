@@ -1,0 +1,161 @@
+{
+    "category": "mammals",
+    "products": [
+        {
+            "id": 1,
+            "category": "mammals",
+            "name": "Elephant",
+            "Description": "A large herbivorous mammal with a trunk.",
+            "price": 500000.00,
+            "image": "/images/mammals/elephant.jpg",
+            "gallery": [
+                "/images/mammals/elephant_1.jpg",
+                "/images/mammals/elephant_2.jpg",
+                "/images/mammals/elephant_3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "mammals",
+            "name": "Tiger",
+            "Description": "A powerful carnivorous feline with orange and black stripes.",
+            "price": 50000.00,
+            "image": "/images/mammals/tiger.jpg",
+            "gallery": [
+                "/images/mammals/tiger_1.jpg",
+                "/images/mammals/tiger_2.jpg",
+                "/images/mammals/tiger_3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "mammals",
+            "name": "Zebra",
+            "Description": "A herbivorous mammal with distinctive black and white stripes.",
+            "price": 30000.00,
+            "image": "/images/mammals/zebra.jpg",
+            "gallery": [
+                "/images/mammals/zebra_1.jpg",
+                "/images/mammals/zebra_2.jpg",
+                "/images/mammals/zebra_3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "mammals",
+            "name": "Lion",
+            "Description": "Known as the king of the jungle, a carnivorous feline.",
+            "price": 40000.00,
+            "image": "/images/mammals/lion.jpg",
+            "gallery": [
+                "/images/mammals/lion_1.jpg",
+                "/images/mammals/lion_2.jpg",
+                "/images/mammals/lion_3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "mammals",
+            "name": "Giraffe",
+            "Description": "The tallest land animal with a long neck and legs.",
+            "price": 60000.00,
+            "image": "/images/mammals/giraffe.jpg",
+            "gallery": [
+                "/images/mammals/giraffe_1.jpg",
+                "/images/mammals/giraffe_2.jpg",
+                "/images/mammals/giraffe_3.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "mammals",
+            "name": "Kangaroo",
+            "Description": "A marsupial known for its powerful hind legs and pouch.",
+            "price": 20000.00,
+            "image": "/images/mammals/kangaroo.jpg",
+            "gallery": [
+                "/images/mammals/kangaroo_1.jpg",
+                "/images/mammals/kangaroo_2.jpg",
+                "/images/mammals/kangaroo_3.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "mammals",
+            "name": "Panda",
+            "Description": "A bear-like herbivore native to China, known for its black and white fur.",
+            "price": 1000000.00,
+            "image": "/images/mammals/panda.jpg",
+            "gallery": [
+                "/images/mammals/panda_1.jpg",
+                "/images/mammals/panda_2.jpg",
+                "/images/mammals/panda_3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "mammals",
+            "name": "Sloth",
+            "Description": "A slow-moving tree-dweller known for its relaxed lifestyle.",
+            "price": 15000.00,
+            "image": "/images/mammals/sloth.jpg",
+            "gallery": [
+                "/images/mammals/sloth_1.jpg",
+                "/images/mammals/sloth_2.jpg",
+                "/images/mammals/sloth_3.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "mammals",
+            "name": "Koala",
+            "Description": "A tree-dwelling marsupial that feeds on eucalyptus leaves.",
+            "price": 25000.00,
+            "image": "/images/mammals/koala.jpg",
+            "gallery": [
+                "/images/mammals/koala_1.jpg",
+                "/images/mammals/koala_2.jpg",
+                "/images/mammals/koala_3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "mammals",
+            "name": "Wolf",
+            "Description": "A wild carnivorous canine known for its pack behavior.",
+            "price": 10000.00,
+            "image": "/images/mammals/wolf.jpg",
+            "gallery": [
+                "/images/mammals/wolf_1.jpg",
+                "/images/mammals/wolf_2.jpg",
+                "/images/mammals/wolf_3.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "mammals",
+            "name": "Fox",
+            "Description": "A small, omnivorous canine known for its cunning nature.",
+            "price": 8000.00,
+            "image": "/images/mammals/fox.jpg",
+            "gallery": [
+                "/images/mammals/fox_1.jpg",
+                "/images/mammals/fox_2.jpg",
+                "/images/mammals/fox_3.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "mammals",
+            "name": "Chimpanzee",
+            "Description": "An intelligent primate closely related to humans.",
+            "price": 100000.00,
+            "image": "/images/mammals/chimpanzee.jpg",
+            "gallery": [
+                "/images/mammals/chimpanzee_1.jpg",
+                "/images/mammals/chimpanzee_2.jpg",
+                "/images/mammals/chimpanzee_3.jpg"
+            ]
+        }
+    ]
+}

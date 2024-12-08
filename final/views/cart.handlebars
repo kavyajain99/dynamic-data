@@ -1,0 +1,35 @@
+{{!-- <div class="cart-title">
+    <h1 class="my-4">Here is your cart</h1>
+</div> --}}
+
+<div class="custom-banner-2">
+        <h1 class="custom-banner-title">Your Future Zoo Looks Like:</h1>
+    </div>
+
+{{#if products.length}} 
+<div class="container">
+    <div class="row">
+        {{#each products}}
+        <div class="col-md-3">
+            <div class="card mb-3 shadow-sm">
+                <img src="{{this.image}}" class="card-img-top gallery" alt="{{this.description}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.category}}: {{this.description}}</h5>
+                    <p class="card-text">Price: ${{this.price}}</p>
+                    <form action="/cart/remove" method="POST">
+                        <input type="hidden" name="id" value="{{this.id}}">
+                        <button class="btn btn-danger" type="submit">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div> 
+{{else}}
+<p class="centered-text">Your cart is empty. Time to start buying (exotic) things.</p>
+{{/if}}
+
+<div class="return-container">
+    <a href="/" class="btn btn-primary mt-4 return">Return to Homepage</a>
+</div>

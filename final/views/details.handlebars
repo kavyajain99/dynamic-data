@@ -1,0 +1,54 @@
+<div class="container my-4">
+    <div class="row">
+        <div class="col-md-5 mb-4">
+            <img src="{{currData.image}}" alt="{{currData.name}}" class="img-fluid">
+        </div>
+        <div class="col-md-7">
+            <h1>{{currData.name}}</h1>
+            <h4 class="text-muted">Price: ${{currData.price}} USD</h4>
+            <p>{{currData.Description}}</p>
+        </div>
+    </div>
+</div>
+
+<div class="container my-4">
+    <div class="row">
+        {{#each currData.gallery}}
+            <div class="col-md-2 mb-4">
+                <img src="{{this}}" alt="Gallery image {{@index}}" class="img-fluid gallery">
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+<div class="container my-4">
+    {{>addcart}}
+</div>
+
+<div class="container my-4">
+    <h3>Additional items from the same category</h3>
+    <div class="row">
+        {{#each dataSuggested}}
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <img src="{{this.image}}" class="card-img-top slides" alt="{{this.name}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{this.name}}</h5>
+                        <p class="card-text">Price: ${{this.price}} USD</p>
+                        <a href="/{{this.category}}/details/{{this.id}}" class="btn btn-success">View Product</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+
+
+
+{{!-- can grab from data --}}
+{{!-- can do maybe like an #each looop --}}
+{{!-- but only do 4 itterations   ask caht --}}
+
+{{!-- and if that is too difcult and does not work, --}}
+{{!-- write soem custom js in app, to give you anarray of four random objects in same catgory --}}

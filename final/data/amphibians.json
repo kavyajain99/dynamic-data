@@ -1,0 +1,161 @@
+{
+    "category": "amphibians",
+    "products": [
+        {
+            "id": 1,
+            "category": "amphibians",
+            "name": "Frog",
+            "Description": "A small, tailless amphibian that hops and lives both in water and on land.",
+            "price": 500.00,
+            "image": "/images/amphibians/frog.jpg",
+            "gallery": [
+                "/images/amphibians/frog_1.jpg",
+                "/images/amphibians/frog_2.jpg",
+                "/images/amphibians/frog_3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "amphibians",
+            "name": "Salamander",
+            "Description": "A slender-bodied amphibian with a long tail and moist skin.",
+            "price": 1000.00,
+            "image": "/images/amphibians/salamander.jpg",
+            "gallery": [
+                "/images/amphibians/salamander_1.jpg",
+                "/images/amphibians/salamander_2.jpg",
+                "/images/amphibians/salamander_3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "amphibians",
+            "name": "Toad",
+            "Description": "A warty-skinned amphibian that is often found farther from water.",
+            "price": 800.00,
+            "image": "/images/amphibians/toad.jpg",
+            "gallery": [
+                "/images/amphibians/toad_1.jpg",
+                "/images/amphibians/toad_2.jpg",
+                "/images/amphibians/toad_3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "amphibians",
+            "name": "Axolotl",
+            "Description": "A unique amphibian that remains aquatic and retains gills throughout its life.",
+            "price": 1500.00,
+            "image": "/images/amphibians/axolotl.jpg",
+            "gallery": [
+                "/images/amphibians/axolotl_1.jpg",
+                "/images/amphibians/axolotl_2.jpg",
+                "/images/amphibians/axolotl_3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "amphibians",
+            "name": "Newt",
+            "Description": "A small aquatic amphibian that often has bright, colorful skin.",
+            "price": 700.00,
+            "image": "/images/amphibians/newt.jpg",
+            "gallery": [
+                "/images/amphibians/newt_1.jpg",
+                "/images/amphibians/newt_2.jpg",
+                "/images/amphibians/newt_3.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "amphibians",
+            "name": "Caecilian",
+            "Description": "A limbless, snake-like amphibian that burrows in the ground.",
+            "price": 1200.00,
+            "image": "/images/amphibians/caecilian.jpg",
+            "gallery": [
+                "/images/amphibians/caecilian_1.jpg",
+                "/images/amphibians/caecilian_2.jpg",
+                "/images/amphibians/caecilian_3.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "amphibians",
+            "name": "Glass Frog",
+            "Description": "An amphibian with translucent skin, revealing its internal organs.",
+            "price": 1000.00,
+            "image": "/images/amphibians/glass_frog.jpg",
+            "gallery": [
+                "/images/amphibians/glass_frog_1.jpg",
+                "/images/amphibians/glass_frog_2.jpg",
+                "/images/amphibians/glass_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "amphibians",
+            "name": "Tree Frog",
+            "Description": "A small, arboreal amphibian known for its adhesive toe pads.",
+            "price": 900.00,
+            "image": "/images/amphibians/tree_frog.jpg",
+            "gallery": [
+                "/images/amphibians/tree_frog_1.jpg",
+                "/images/amphibians/tree_frog_2.jpg",
+                "/images/amphibians/tree_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "amphibians",
+            "name": "Dart Frog",
+            "Description": "A brightly colored frog that secretes toxic chemicals as a defense.",
+            "price": 1200.00,
+            "image": "/images/amphibians/dart_frog.jpg",
+            "gallery": [
+                "/images/amphibians/dart_frog_1.jpg",
+                "/images/amphibians/dart_frog_2.jpg",
+                "/images/amphibians/dart_frog_3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "amphibians",
+            "name": "Hellbender",
+            "Description": "A large aquatic salamander found in North America.",
+            "price": 2000.00,
+            "image": "/images/amphibians/hellbender.jpg",
+            "gallery": [
+                "/images/amphibians/hellbender_1.jpg",
+                "/images/amphibians/hellbender_2.jpg",
+                "/images/amphibians/hellbender_3.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "amphibians",
+            "name": "Mudpuppy",
+            "Description": "An aquatic salamander that retains external gills as an adult.",
+            "price": 1800.00,
+            "image": "/images/amphibians/mudpuppy.jpg",
+            "gallery": [
+                "/images/amphibians/mudpuppy_1.jpg",
+                "/images/amphibians/mudpuppy_2.jpg",
+                "/images/amphibians/mudpuppy_3.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "amphibians",
+            "name": "Olm",
+            "Description": "A blind aquatic salamander adapted to life in caves.",
+            "price": 2500.00,
+            "image": "/images/amphibians/olm.jpg",
+            "gallery": [
+                "/images/amphibians/olm_1.jpg",
+                "/images/amphibians/olm_2.jpg",
+                "/images/amphibians/olm_3.jpg"
+            ]
+        }
+    ]
+}

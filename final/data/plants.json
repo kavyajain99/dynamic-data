@@ -1,0 +1,161 @@
+{
+    "category": "plants",
+    "products": [
+        {
+            "id": 1,
+            "category": "plants",
+            "name": "Venus Flytrap",
+            "Description": "A carnivorous plant that traps and digests insects in its jaw-like leaves.",
+            "price": 50.00,
+            "image": "/images/plants/venus_flytrap.jpg",
+            "gallery": [
+                "/images/plants/venus_flytrap_1.jpg",
+                "/images/plants/venus_flytrap_2.jpg",
+                "/images/plants/venus_flytrap_3.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "category": "plants",
+            "name": "Baobab Tree",
+            "Description": "A massive tree known as the 'Tree of Life,' found in Africa and capable of storing water in its trunk.",
+            "price": 10000.00,
+            "image": "/images/plants/baobab.jpg",
+            "gallery": [
+                "/images/plants/baobab_1.jpg",
+                "/images/plants/baobab_2.jpg",
+                "/images/plants/baobab_3.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "plants",
+            "name": "Rafflesia",
+            "Description": "A parasitic plant with the world’s largest flower, known for its strong odor of decaying flesh.",
+            "price": 5000.00,
+            "image": "/images/plants/rafflesia.jpg",
+            "gallery": [
+                "/images/plants/rafflesia_1.jpg",
+                "/images/plants/rafflesia_2.jpg",
+                "/images/plants/rafflesia_3.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "plants",
+            "name": "Corpse Flower",
+            "Description": "A rare flowering plant that emits a smell resembling rotting meat when in bloom.",
+            "price": 8000.00,
+            "image": "/images/plants/corpse_flower.jpg",
+            "gallery": [
+                "/images/plants/corpse_flower_1.jpg",
+                "/images/plants/corpse_flower_2.jpg",
+                "/images/plants/corpse_flower_3.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "plants",
+            "name": "Dragon Blood Tree",
+            "Description": "A visually striking tree with umbrella-like branches and red sap known as 'dragon's blood.'",
+            "price": 7000.00,
+            "image": "/images/plants/dragon_blood_tree.jpg",
+            "gallery": [
+                "/images/plants/dragon_blood_tree_1.jpg",
+                "/images/plants/dragon_blood_tree_2.jpg",
+                "/images/plants/dragon_blood_tree_3.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "plants",
+            "name": "Pitcher Plant",
+            "Description": "A carnivorous plant with tubular leaves that trap and digest insects.",
+            "price": 60.00,
+            "image": "/images/plants/pitcher_plant.jpg",
+            "gallery": [
+                "/images/plants/pitcher_plant_1.jpg",
+                "/images/plants/pitcher_plant_2.jpg",
+                "/images/plants/pitcher_plant_3.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "plants",
+            "name": "Welwitschia",
+            "Description": "A desert plant with only two leaves, known for living up to 1,500 years in the Namib Desert.",
+            "price": 3000.00,
+            "image": "/images/plants/welwitschia.jpg",
+            "gallery": [
+                "/images/plants/welwitschia_1.jpg",
+                "/images/plants/welwitschia_2.jpg",
+                "/images/plants/welwitschia_3.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "plants",
+            "name": "Sensitive Plant",
+            "Description": "Also known as Mimosa pudica, this plant folds its leaves when touched or disturbed.",
+            "price": 40.00,
+            "image": "/images/plants/sensitive_plant.jpg",
+            "gallery": [
+                "/images/plants/sensitive_plant_1.jpg",
+                "/images/plants/sensitive_plant_2.jpg",
+                "/images/plants/sensitive_plant_3.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "category": "plants",
+            "name": "Rainbow Eucalyptus",
+            "Description": "A tree with a multicolored bark that looks like a natural work of art.",
+            "price": 6000.00,
+            "image": "/images/plants/rainbow_eucalyptus.jpg",
+            "gallery": [
+                "/images/plants/rainbow_eucalyptus_1.jpg",
+                "/images/plants/rainbow_eucalyptus_2.jpg",
+                "/images/plants/rainbow_eucalyptus_3.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "plants",
+            "name": "Cobra Lily",
+            "Description": "A carnivorous plant with leaves resembling a cobra ready to strike.",
+            "price": 70.00,
+            "image": "/images/plants/cobra_lily.jpg",
+            "gallery": [
+                "/images/plants/cobra_lily_1.jpg",
+                "/images/plants/cobra_lily_2.jpg",
+                "/images/plants/cobra_lily_3.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "category": "plants",
+            "name": "Sundew",
+            "Description": "A sticky carnivorous plant that traps insects on its glistening leaves.",
+            "price": 50.00,
+            "image": "/images/plants/sundew.jpg",
+            "gallery": [
+                "/images/plants/sundew_1.jpg",
+                "/images/plants/sundew_2.jpg",
+                "/images/plants/sundew_3.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "category": "plants",
+            "name": "Waterwheel Plant",
+            "Description": "An aquatic carnivorous plant that uses a snapping trap mechanism to catch prey.",
+            "price": 100.00,
+            "image": "/images/plants/waterwheel.jpg",
+            "gallery": [
+                "/images/plants/waterwheel_1.jpg",
+                "/images/plants/waterwheel_2.jpg",
+                "/images/plants/waterwheel_3.jpg"
+            ]
+        }
+    ]
+}

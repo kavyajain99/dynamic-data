@@ -3099,7 +3099,7 @@ textarea.form-control-lg {
 }
 
 .btn-success {
-  --bs-btn-color: #fff;
+  --bs-btn-color: #000;
   --bs-btn-bg: #2aa198;
   --bs-btn-border-color: #2aa198;
   --bs-btn-hover-color: #fff;

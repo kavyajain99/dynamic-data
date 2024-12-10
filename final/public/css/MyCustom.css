@@ -52,17 +52,17 @@
 
 .owl-carousel .card-title {
   font-size: 1.25rem;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .owl-carousel .card-text {
   font-size: 1rem;
-  color: #555;
+  color: #eee;
 }
 
 /* Categories */
 .container .row .col-md-4 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .container .row .col-md-4 a {
@@ -182,4 +182,12 @@ h2{
    text-transform: uppercase;
   letter-spacing: 2px;
   
+}
+
+.btn-success{
+  color: white;
+}
+
+.meow{
+  color: white;
 }

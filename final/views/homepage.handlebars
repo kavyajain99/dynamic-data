@@ -36,30 +36,32 @@
 
 {{!-- this is the owl card stollen from midterm modified for current structure--}}
 
-    <h1>featured products here []</h1>
-
-<div class="row owl-theme owl-carousel owl-packages">
-
-    {{#each data.products}}
-    <div class="card">
-        <img src="{{this.image}}" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">{{this.name}}</h5>
-            <p class="card-text">{{this.description}}</p>
+<div class="container">
+    <h2 class= >A Very Nice Carousel</h2> 
+    <div class="row owl-theme owl-carousel owl-packages">
+        {{#each data.products}}
+        <div class="card">
+            <img src="{{this.image}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{this.name}}</h5>
+                <p class="card-text">{{this.Description}}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">$ {{this.price}}</li>
+            </ul>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">$ {{this.price}}</li>
-        </ul>
+        {{/each}}
     </div>
-    {{/each}}
 </div>
 
 
 {{!-- this is the categories --}}
 
 <div class="container home-categories">
-        
+    
+
         <div class="row">
+                <h2 class= >Purchase Categories</h2>    
             <div class="col-md-4">
                 <a href="/plants/category">
                      <h2>Plants</h2>

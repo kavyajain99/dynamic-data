@@ -144,6 +144,16 @@ app.get('/test', (request, response) => {
     response.render('test', { message: 'This is a test' });
 });
 
+// ************** About us  
+
+app.get('/about', (request, response) => {
+   
+
+    const data = require("./data/homepage.json")
+    
+    response.render('about',{data})
+});
+
 
 
 // app.get('/plants/details/:id', (request, response) => {
